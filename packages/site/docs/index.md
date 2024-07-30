@@ -4,7 +4,7 @@ layout: home
 title: 'AI for Effective Meetings'
 
 hero:
-  name: 'A.R.V.I.S.'
+  name: 'Lie to AI'
   # text: 'AI for Effective Meetings'
   # text: 'Boost Your Video Conferences'
   # text: 'Nextgen meetings for Gen XYZ'
