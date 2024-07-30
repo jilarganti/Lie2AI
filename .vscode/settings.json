@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    ".vercel": false,
+    ".vscode": true,
+    "playwright-report": true,
+    "vitest-report": true,
+    "test-results": true
+  }
+}

@@ -1,0 +1,46 @@
+name: Playwright Tests
+
+on:
+  deployment_status:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.number || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+
+    # @see https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs
+    strategy:
+      matrix:
+        node_version: [20]
+
+    if: github.event.deployment_status.state == 'success'
+
+    # @see https://pnpm.io/continuous-integration#github-actions
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node_version }}
+          cache: pnpm
+      - run: pnpm install
+
+      # @see https://playwright.dev/docs/ci-intro
+      - run: pnpm playwright install --with-deps
+      - run: pnpm test:e2e
+        env:
+          PLAYWRIGHT_TEST_BASE_URL: ${{ github.event.deployment_status.target_url }}
+
+      # @see https://github.com/actions/upload-artifact
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report-${{ matrix.node_version }}-${{ github.run_id }}
+          path: playwright-report/
+          retention-days: 30
