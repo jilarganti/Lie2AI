@@ -14,6 +14,7 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
+    "lint": "eslint ",
     "check:links": "pnpm exec linkinator '**/*.md' --verbosity ERROR -s 'example, zoom, openai'",
     "translation:compare": "v-translation compare",
     "translation:update": "v-translation update",

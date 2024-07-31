@@ -1,8 +1,8 @@
 import { defineConfig } from "vitepress"
-import { search as ruSearch } from "./ru"
+// import { search as ruSearch } from "./ru"
 
 export const shared = defineConfig({
-  title: "Lie2AI",
+  title: "Lie to AI",
 
   srcDir: "./docs",
 
@@ -44,10 +44,10 @@ export const shared = defineConfig({
     ],
 
   themeConfig: {
-    logo: {
-      light: "/LogoDark.png",
-      dark: "/LogoLight.png",
-    },
+    // logo: {
+    //   light: "/LogoDark.png",
+    //   dark: "/LogoLight.png",
+    // },
 
     socialLinks: [{ icon: "github", link: "https://github.com/jilarganti/arvis" }],
 
@@ -55,14 +55,14 @@ export const shared = defineConfig({
       pattern: "https://github.com/jilarganti/arvis/edit/main/packages/site/:path",
     },
 
-    search: {
-      provider: "algolia",
-      options: {
-        appId: "OAF8W52W8I",
-        apiKey: "12c782af03f5595d06a56e517eb8c67b",
-        indexName: "arvis-doc",
-        locales: { ...ruSearch },
-      },
-    },
+    // search: {
+    //   provider: "algolia",
+    //   options: {
+    //     appId: "OAF8W52W8I",
+    //     apiKey: "12c782af03f5595d06a56e517eb8c67b",
+    //     indexName: "arvis-doc",
+    //     locales: { ...ruSearch },
+    //   },
+    // },
   },
 })

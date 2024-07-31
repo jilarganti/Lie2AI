@@ -1,6 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: home
+layout: LandingLayout
 title: "AI for Effective Meetings"
 
 hero:
@@ -16,11 +16,11 @@ hero:
   # tagline: "AI assistant: enhancing communication efficiency through continuous AI learning during your meetings."
   actions:
     - theme: brand
-      text: See a demo
+      text: New meeting
       link: /guide/introduction#what-is-a-r-v-i-s
     - theme: alt
-      text: How it works
-      link: landing
+      text: Join
+      link: guide/get-started
     # - theme: sponsor
     #   text: Sign in
     #   link: /guide/introduction#what-is-a-r-v-i-s

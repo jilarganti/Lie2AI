@@ -1,14 +1,15 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-title: 'ИИ-помощник для видеоконференций'
+title: "ИИ-помощник для видеоконференций"
 
 hero:
-  name: 'A.R.V.I.S.'
-  text: 'Видеовстречи с поддержкой ИИ'
-  tagline: 'ИИ-ассистент A.R.V.I.S.: повышение эффективности общения за счет непрерывного обучения ИИ во время ваших встреч.'
+  name: "Обмани ИИ"
+  text: "ВидеовстречИИ"
+  # tagline: "ИИ-ассистент A.R.V.I.S.: повышение эффективности общения за счет непрерывного обучения ИИ во время ваших встреч."
   # tagline: 'Ваш AI-ассистент A.R.V.I.S.: повышение эффективности коммуникации, оптимизируя время и ресурсы вашей команды.'
   # tagline: 'Видеовстречи с поддержкой специально обученного ИИ-ассистента'
+  tagline: "Онлайн анализ речи и эмоций участников путем оценки искренности и выявления личностных черт на основе модели Big Five."
   actions:
     - theme: brand
       text: Знакомство
@@ -17,8 +18,8 @@ hero:
       text: Справочник
       link: /ru/guide/get-started
   image:
-    light: /HomeHeroLarge.avif
-    dark: /HomeHeroLarge.avif
+    light: /image.png
+    dark: /image.png
     alt: video conference in shorts
 
 features:
