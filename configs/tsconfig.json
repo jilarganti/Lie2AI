@@ -17,7 +17,7 @@
     "skipLibCheck": true,
 
     "paths": {
-      "@arvis": ["../packages/a.r.v.i.s./src/index"],
+      "@lie2ai": ["../packages/a.r.v.i.s./src/index"],
       "@utils": ["../packages/utils/src/index"],
       "@site/*": ["../packages/site/.vitepress/config/*"]
     }

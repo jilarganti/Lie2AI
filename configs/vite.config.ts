@@ -10,7 +10,7 @@ import { resolve } from "node:path"
 export default defineConfig({
   resolve: {
     alias: {
-      "@arvis": resolve(__dirname, "../packages/a.r.v.i.s./src/"),
+      "@lie2ai": resolve(__dirname, "../packages/Lie2AI/src/"),
       "@site": resolve(__dirname, "../packages/site/.vitepress/config/"),
       "@utils": resolve(__dirname, "../packages/utils/src/"),
     },

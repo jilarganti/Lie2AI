@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress"
 import { search as ruSearch } from "./ru"
 
 export const shared = defineConfig({
-  title: "A.R.V.I.S.",
+  title: "Lie2AI",
 
   srcDir: "./docs",
 
