@@ -49,7 +49,7 @@ export const shared = defineConfig({
     //   dark: "/LogoLight.png",
     // },
 
-    socialLinks: [{ icon: "github", link: "https://github.com/jilarganti/arvis" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/jilarganti/Lie2AI" }],
 
     editLink: {
       pattern: "https://github.com/jilarganti/arvis/edit/main/packages/site/:path",

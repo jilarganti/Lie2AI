@@ -1,6 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: LandingLayout
+layout: home
 title: "AI for Effective Meetings"
 
 hero:

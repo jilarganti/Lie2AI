@@ -18,66 +18,28 @@ export const ru = defineConfig({
     // },
 
     footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2024-present, Jil Arganti",
+      // message: "Released under the MIT License.",
+      copyright: "Copyright © 2024-present, Golden Fish",
     },
   },
 })
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    { text: "Дока", link: "/ru/guide/introduction", activeMatch: "/ru/guide/" },
+    { text: "Дока", link: "/ru/guide/how-it-works", activeMatch: "/ru/guide/" },
     { text: "О нас", link: "/ru/about/team", activeMatch: "/ru/about/" },
     {
-      text: "Join",
-      link: "https://zoom.us/join",
-      target: "_self",
-      rel: "noreferrer",
-    },
-    {
-      text: "Host",
+      text: "Войти",
       items: [
         {
-          text: "Public Meeting",
-          items: [
-            {
-              text: "Create a meeting for later",
-              link: "/ru/guide/meeting#create-a-meeting-for-later",
-            },
-            {
-              text: "Start an instant meeting",
-              link: "/ru/guide/meeting#start-an-instant-meeting",
-            },
-            {
-              text: "Schedule in Calendar",
-              link: "/ru/guide/meeting#schedule-in-calendar",
-            },
-          ],
+          text: "через Google",
+          link: "/landing",
         },
         {
-          text: "Private Meeting",
-          items: [
-            {
-              text: "Create a meeting for later",
-              link: "/ru/guide/meeting#create-a-meeting-for-later-1",
-            },
-            {
-              text: "Start an instant meeting",
-              link: "/ru/guide/meeting#start-an-instant-meeting-1",
-            },
-            {
-              text: "Schedule in Calendar",
-              link: "/ru/guide/meeting#schedule-in-calendar-1",
-            },
-          ],
+          text: "через Microsoft",
+          link: "/landing",
         },
       ],
-    },
-    {
-      text: "Sign In",
-      link: "https://zoom.us/signin#/login",
-      target: "_self",
-      rel: "noreferrer",
     },
   ]
 }
@@ -88,19 +50,18 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
       text: "Введение",
       collapsed: false,
       items: [
-        { text: "Что такое A.R.V.I.S.?", link: "introduction" },
-        { text: "Конфиденциальность данных", link: "privacy" },
-        { text: "Начало работы", link: "get-started" },
+        { text: "Нафига?", link: "what-for" },
+        { text: "Как это работает?", link: "how-it-works" },
       ],
     },
     {
-      text: "Стек",
+      text: "Кейсы",
       collapsed: true,
-      items: [
-        { text: "Медиа SDK", link: "markdown" },
-        { text: "ИИ ассистенты", link: "markdown" },
-        // { text: 'Интеграции', link: 'markdown' },
-      ],
+      // items: [
+      //   { text: "Медиа SDK", link: "markdown" },
+      //   { text: "ИИ ассистенты", link: "markdown" },
+      //   // { text: 'Интеграции', link: 'markdown' },
+      // ],
     },
 
     // { text: 'Config & API Reference', base: '/reference/', link: 'site-config' }
@@ -111,17 +72,7 @@ function sidebarAbout(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "О нас",
-      items: [
-        { text: "Code Of Conduct", base: "/", link: "CODE_OF_CONDUCT" },
-        // {
-        //     text: 'Default Theme',
-        //     base: '/reference/default-theme-',
-        //     items: [
-        //         { text: 'Overview', link: 'config' },
-
-        //     ]
-        // }
-      ],
+      items: [{ text: "Команда", link: "team" }],
     },
   ]
 }

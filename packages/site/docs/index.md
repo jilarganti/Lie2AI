@@ -4,23 +4,23 @@ layout: home
 title: "AI for Effective Meetings"
 
 hero:
-  # name: "Lie to AI"
+  name: "Speech and Emotion Analysis"
   # text: 'AI for Effective Meetings'
-  text: "AI-centric video meetings"
+  # text: "AI-centric video meetings"
   # text: 'Nextgen meetings for Gen XYZ'
   # text: "AI-enhanced video meetings"
   # tagline: "Introducing J.A.R.V.I.S.'s apprentice, designed to bring the brilliance of its mentor into your meetings. This AI assistant uses past data to help you reach your goals, providing strategic advice and a focus on concrete outcomes."
   # tagline: "Video meetings enhanced by a specially trained AI assistant"
   # tagline: "AI assistant: boosting communication efficiency with continuous learning."
-  tagline: "Online Speech and Emotion Analysis: Assessing Sincerity and Identifying Personality Traits Based on the Big Five Model."
+  tagline: "AI-centric video meetings: assessment of personality traits and truthfulness of statements of participants during a video conference."
   # tagline: "AI assistant: enhancing communication efficiency through continuous AI learning during your meetings."
   actions:
     - theme: brand
       text: See a demo
-      link: /guide/introduction#what-is-a-r-v-i-s
+      link: /guide/demo
     - theme: alt
       text: How it works
-      link: landing
+      link: /guide/how-it-works
     # - theme: sponsor
     #   text: Sign in
     #   link: /guide/introduction#what-is-a-r-v-i-s

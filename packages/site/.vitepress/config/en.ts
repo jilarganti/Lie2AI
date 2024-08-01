@@ -20,21 +20,20 @@ export const en = defineConfig({
     // },
 
     footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2024-present, Jil Arganti",
+      // message: "Released under the MIT License.",
+      copyright: "Copyright © 2024-present, Golden Fish",
     },
   },
 })
 
 function nav(): DefaultTheme.NavItem[] {
-  const signInLabel = path === "/landing" ? "Logout" : "Sign in"
+  // const signInLabel = path === "/landing" ? "Logout" : "Sign in"
 
   return [
-    { text: "Docs", link: "/guide/introduction", activeMatch: "/guide/" },
+    { text: "Guide", link: "/guide/how-it-works", activeMatch: "/guide/" },
     { text: "About", link: "/about/team", activeMatch: "/about/" },
-
     {
-      text: signInLabel,
+      text: "Sign in",
       items: [
         {
           text: "with Google",
@@ -55,24 +54,19 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
       text: "Introduction",
       collapsed: true,
       items: [
-        { text: "What is A.R.V.I.S.?", link: "introduction" },
-        { text: "Privacy", link: "privacy" },
-        { text: "Get Started", link: "get-started" },
+        { text: "What for?", link: "what-for" },
+        { text: "How it works?", link: "how-it-works" },
       ],
     },
     {
-      text: "Platform",
-      collapsed: false,
-      items: [
-        {
-          text: "Backend Architecture Specification",
-          link: "vca_architecture",
-        },
-        { text: "AI assistants", link: "markdown" },
-      ],
+      text: "Use Cases",
+      collapsed: true,
+      // items: [
+      //   { text: "Медиа SDK", link: "markdown" },
+      //   { text: "ИИ ассистенты", link: "markdown" },
+      //   // { text: 'Интеграции', link: 'markdown' },
+      // ],
     },
-
-    // { text: 'Config & API Reference', base: '/reference/', link: 'site-config' }
   ]
 }
 
@@ -80,7 +74,7 @@ function sidebarAbout(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "About",
-      items: [{ text: "Code Of Conduct", base: "/", link: "CODE_OF_CONDUCT" }],
+      items: [{ text: "Team", link: "team" }],
     },
   ]
 }
