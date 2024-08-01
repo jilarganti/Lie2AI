@@ -27,59 +27,24 @@ export const en = defineConfig({
 })
 
 function nav(): DefaultTheme.NavItem[] {
+  const signInLabel = path === "/landing" ? "Logout" : "Sign in"
+
   return [
     { text: "Docs", link: "/guide/introduction", activeMatch: "/guide/" },
     { text: "About", link: "/about/team", activeMatch: "/about/" },
+
     {
-      text: "Join",
-      link: "https://zoom.us/join",
-      target: "_self",
-      rel: "noreferrer",
-    },
-    {
-      text: "Host",
+      text: signInLabel,
       items: [
         {
-          text: "Public Meeting",
-          items: [
-            {
-              text: "Create a meeting for later",
-              link: "/ru/guide/meeting#create-a-meeting-for-later",
-            },
-            {
-              text: "Start an instant meeting",
-              link: "/ru/guide/meeting#start-an-instant-meeting",
-            },
-            {
-              text: "Schedule in Calendar",
-              link: "/ru/guide/meeting#schedule-in-calendar",
-            },
-          ],
+          text: "with Google",
+          link: "/landing",
         },
         {
-          text: "Private Meeting",
-          items: [
-            {
-              text: "Create a meeting for later",
-              link: "/ru/guide/meeting#create-a-meeting-for-later-1",
-            },
-            {
-              text: "Start an instant meeting",
-              link: "/ru/guide/meeting#start-an-instant-meeting-1",
-            },
-            {
-              text: "Schedule in Calendar",
-              link: "/ru/guide/meeting#schedule-in-calendar-1",
-            },
-          ],
+          text: "with Microsoft",
+          link: "/landing",
         },
       ],
-    },
-    {
-      text: "Sign In",
-      link: "https://zoom.us/signin#/login",
-      target: "_self",
-      rel: "noreferrer",
     },
   ]
 }
