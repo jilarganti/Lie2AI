@@ -4,12 +4,12 @@
   "license": "MIT",
   "author": "SMYRNA INFORMATION TECHNOLOGY NETWORK SERVICES L.L.C",
   "description": "Arvis: AI-enhanced video meetings",
-  "homepage": "https://github.com/jilarganti/arvis",
-  "bugs": "https://github.com/jilarganti/arvis/issues",
+  "homepage": "https://github.com/jilarganti/Lie2AI",
+  "bugs": "https://github.com/jilarganti/Lie2AI/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jilarganti/arvis.git",
-    "directory": "packages/arvis"
+    "url": "https://github.com/jilarganti/Lie2AI.git",
+    "directory": "packages/Lie2AI"
   },
   "type": "module",
   "scripts": {

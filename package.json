@@ -4,9 +4,9 @@
   "license": "MIT",
   "author": "SMYRNA INFORMATION TECHNOLOGY NETWORK SERVICES L.L.C",
   "description": "Arvis project monorepo: AI-enhanced video meetings",
-  "homepage": "https://github.com/jilarganti/arvis",
-  "bugs": "https://github.com/jilarganti/arvis/issues",
-  "repository": "github:jilarganti/arvis",
+  "homepage": "https://github.com/jilarganti/Lie2AI",
+  "bugs": "https://github.com/jilarganti/Lie2AI/issues",
+  "repository": "github:jilarganti/Lie2AI",
   "type": "module",
   "scripts": {
     "dev": "pnpm -r dev --host",

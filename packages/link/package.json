@@ -5,11 +5,11 @@
   "description": "Arvis media engine",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/jilarganti/arvis",
-  "bugs": "https://github.com/jilarganti/arvis/issues",
+  "homepage": "https://github.com/jilarganti/Lie2AI",
+  "bugs": "https://github.com/jilarganti/Lie2AI/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jilarganti/arvis.git",
+    "url": "https://github.com/jilarganti/Lie2AI.git",
     "directory": "packages/media"
   },
   "type": "module",

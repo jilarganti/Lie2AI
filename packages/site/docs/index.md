@@ -25,7 +25,7 @@ hero:
     #   text: Sign in
     #   link: /guide/introduction#what-is-a-r-v-i-s
   image:
-    # light: /arvis.light.gif
+    # light: /Lie2AI.light.gif
     light: /image.png
     dark: /image.png
     alt: video conference in shorts

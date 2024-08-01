@@ -25,7 +25,7 @@ Hi! We're really excited that you are interested in contributing to Arvis. Befor
 
 ### Triage Issues and Help Out in Discussions
 
-Check out the issues and discussions for the project you want to help. For example, here are the [issues board](https://github.com/users/jilarganti/projects/4) and [discussions](https://github.com/jilarganti/arvis/discussions) for Arvis. Helping other users, sharing workarounds, creating reproductions, or even poking into a bug a little bit and sharing your findings makes a huge difference.
+Check out the issues and discussions for the project you want to help. For example, here are the [issues board](https://github.com/users/jilarganti/projects/4) and [discussions](https://github.com/jilarganti/Lie2AI/discussions) for Arvis. Helping other users, sharing workarounds, creating reproductions, or even poking into a bug a little bit and sharing your findings makes a huge difference.
 
 ## Development Setup
 

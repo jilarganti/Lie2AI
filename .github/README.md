@@ -8,4 +8,4 @@ Please make sure to read the [Contributing Guide](CONTRIBUTING.md) before making
 
 ## Community
 
-The A.R.V.I.S. community can be found on [GitHub Discussions](https://github.com/jilarganti/arvis/discussions), where you can ask questions, voice ideas, and share your projects.
+The A.R.V.I.S. community can be found on [GitHub Discussions](https://github.com/jilarganti/Lie2AI/discussions), where you can ask questions, voice ideas, and share your projects.

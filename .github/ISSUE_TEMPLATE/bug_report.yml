@@ -50,11 +50,11 @@ body:
       label: Validations
       description: Before submitting the issue, please make sure you do the following
       options:
-        - label: Check if you're on the [latest Arvis version](https://github.com/jilarganti/arvis/releases).
+        - label: Check if you're on the [latest Arvis version](https://github.com/jilarganti/Lie2AI/releases).
           required: true
-        - label: Follow our [Code of Conduct](https://github.com/jilarganti/arvis/blob/main/CODE_OF_CONDUCT.md)
+        - label: Follow our [Code of Conduct](https://github.com/jilarganti/Lie2AI/blob/main/CODE_OF_CONDUCT.md)
           required: true
-        - label: Read the [docs](https://arvis-doc.vercel.app/).
+        - label: Read the [docs](https://Lie2AI-doc.vercel.app/).
           required: true
         - label: Check that there isn't already an issue that reports the same bug to avoid creating a duplicate.
           required: true

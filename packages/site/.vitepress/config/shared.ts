@@ -44,7 +44,7 @@ export const shared = defineConfig({
         ['meta', { property: 'og:title', content: 'A.R.V.I.S. | AI for Result-Driven Meetings' }],
         ['meta', { property: 'og:site_name', content: 'A.R.V.I.S.' }],
         // ['meta', { property: 'og:image', content: 'https://vitepress.dev/vitepress-og.jpg' }],
-        ['meta', { property: 'og:url', content: 'https://arvis-doc.vercel.app/' }],
+        ['meta', { property: 'og:url', content: 'https://Lie2AI-doc.vercel.app/' }],
         // ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }]
     ],
 
@@ -57,7 +57,7 @@ export const shared = defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/jilarganti/Lie2AI" }],
 
     editLink: {
-      pattern: "https://github.com/jilarganti/arvis/edit/main/packages/site/:path",
+      pattern: "https://github.com/jilarganti/Lie2AI/edit/main/packages/site/:path",
     },
 
     // search: {

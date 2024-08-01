@@ -22,7 +22,7 @@ hero:
       text: Join
       # link: guide/getting-started
   image:
-    # light: /arvis.light.gif
+    # light: /Lie2AI.light.gif
     light: /image_sketch_new.png
     dark: /image_sketch_new.png
     alt: video conference in shorts
