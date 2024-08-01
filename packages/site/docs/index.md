@@ -1,7 +1,9 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-title: "AI for Effective Meetings"
+# title: "AI for Effective Meetings"
+title: "AI-centric Video Meetings: Speech and Emotion Analysis"
+description: "Assessment of personality traits and truthfulness of statements of participants during a video conference."
 
 hero:
   name: "Speech and Emotion Analysis"
