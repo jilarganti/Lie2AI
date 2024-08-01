@@ -1,7 +1,5 @@
-# Introduction
-
-## What is A.R.V.I.S.?
+# How it works
 
 ::: warning
-[Will be translated later](/ru/guide/introduction)
+[Will be translated later](/ru/guide/how-it-works)
 :::

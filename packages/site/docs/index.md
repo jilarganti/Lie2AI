@@ -19,28 +19,48 @@ hero:
       text: See a demo
       link: /guide/demo
     - theme: alt
-      text: How it works
-      link: /guide/how-it-works
+      text: What is it?
+      link: /guide/what-is-lie2ai
     # - theme: sponsor
     #   text: Sign in
     #   link: /guide/introduction#what-is-a-r-v-i-s
   image:
     # light: /arvis.light.gif
-    light: /image_sketch_new.png
-    dark: /image_sketch_new.png
+    light: /image.png
+    dark: /image.png
     alt: video conference in shorts
 
 features:
-  - title: ⏳ Оптимизация времени и ресурсов
-    details: "Автоматическое создание метаданных: тема, описание, показатели, повестка. Автофиксация итогов и договоренностей."
-    linkText: "Подробнее"
-    link: /ru/guide/introduction#%D0%BA%D0%B0%D0%BA-%D1%8D%D1%82%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82.md
-  - title: 📈 Эффективность коммуникаций
-    details: Трекинг изменений ключевых показателей оценки встречи в течение встречи, а не после ее завершения.
-    linkText: "Подробнее"
-    link: /ru/guide/introduction#%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BE%D1%82%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F-%D0%BE%D1%82-zoom.md
-  - title: 🔐 Конфиденциальность ваших данных
-    details: Только открытые встречи используют данные для обучения ИИ. В on-premise еще больше возможностей по защите данных.
-    linkText: "Подробнее"
-    link: /ru/guide/introduction#%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B2%D0%B0%D1%88%D0%B8%D1%85-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.md
+  - title: 🔎 Job Interview
+    details: Add candidate requirements and their resume before the meeting. Assess how well the candidate fits the job role during the interaction.
+    linkText: Learn more
+    # link: /en/guide/introduction#how-it-works.md
+  - title: 💬 Workgroup Discussion
+    details: Set goals and rules for the workgroup using a ready-made template. This will help maintain standards and drive towards achieving set goals.
+    linkText: Learn more
+    # link: /en/guide/
+  - title: 🩺 Clinical Diagnosis
+    details: Add anamnesis and results of laboratory tests before seeing a patient. Assess the nature of the illness during interactions.
+    linkText: Learn more
+    # link: /en/guide/introduction#why-to-move-away-from-zoom.md
+  - title: 📚 Training and Education
+    details: Analyze participant responses and emotions to adapt educational materials and teaching methods in real time.
+    linkText: Learn more
+    # link: /en/guide/introduction#training.md
+  - title: 🧘 Employee Stress and Well-being Monitoring
+    details: Regularly analyze the emotional state of employees during video conferences to assess stress levels and prevent burnout.
+    linkText: Learn more
+    # link: /en/guide/introduction#monitoring.md
+  - title: 🗣️ Customer Service Quality Control
+    details: Use technology for training and monitoring the quality of service provided by call center staff or customer support services.
+    linkText: Learn more
+    # link: /en/guide/introduction#quality.md
+  - title: 🫂 Support for Group Therapies
+    details: Analyze emotions of participants in group therapeutic sessions to improve interaction and enhance therapy effectiveness.
+    linkText: Learn more
+    # link: /en/guide/introduction#therapy.md
+  - title: ⚖️ Legal Hearings and Interrogations
+    details: Utilize technology to assess the truthfulness of testimonies during online interrogations and hearings.
+    linkText: Learn more
+    # link: /en/guide/introduction#court.md
 ---

@@ -1,4 +1,6 @@
 import { defineConfig } from "vitepress"
+import markdownItFootnote from "markdown-it-footnote"
+
 // import { search as ruSearch } from "./ru"
 
 export const shared = defineConfig({
@@ -11,7 +13,10 @@ export const shared = defineConfig({
   metaChunk: true,
 
   markdown: {
-    math: true,
+    config: (md) => {
+      // use more markdown-it plugins!
+      md.use(markdownItFootnote)
+    },
     codeTransformers: [
       // We use `[!!code` in demo to prevent transformation, here we revert it back.
       {

@@ -33,11 +33,11 @@ function nav(): DefaultTheme.NavItem[] {
       items: [
         {
           text: "через Google",
-          link: "/landing",
+          link: "/ru/landing",
         },
         {
           text: "через Microsoft",
-          link: "/landing",
+          link: "/ru/landing",
         },
       ],
     },
@@ -50,8 +50,10 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
       text: "Введение",
       collapsed: false,
       items: [
-        { text: "Нафига?", link: "what-for" },
+        { text: "Что такое Lie to AI?", link: "what-is-lie2ai" },
         { text: "Как это работает?", link: "how-it-works" },
+        { text: "Начало работы", link: "getting-started" },
+        { text: "Демонстрация", link: "demo" },
       ],
     },
     {

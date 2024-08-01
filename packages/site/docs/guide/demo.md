@@ -1,5 +1,5 @@
-# Get started with A.R.V.I.S.
+# Demo
 
 ::: warning
-[Will be translated later](/ru/guide/get-started)
+[Will be translated later](/ru/guide/demo)
 :::
