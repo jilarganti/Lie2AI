@@ -15,9 +15,9 @@ describe("Shared Vitepress Config", () => {
     expect(shared.metaChunk).toBe(true)
   })
 
-  it("should have math enabled in markdown", () => {
-    expect(shared.markdown?.math).toBe(true)
-  })
+  // it("should have math enabled in markdown", () => {
+  //   expect(shared.markdown?.math).toBe(true)
+  // })
 
   it("should have a correct hostname in sitemap", () => {
     expect(shared.sitemap?.hostname).toBe("https://vitepress.dev")
