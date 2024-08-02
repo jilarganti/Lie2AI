@@ -47,8 +47,8 @@ features:
   - title: 👥 See everyone together
     details: To see more people at the same time, go to Change layout in the More options menu.
     icon:
-      light: /safety_light.svg
-      dark: /safety_light.svg
+      light: /see_everyone_light.svg
+      dark: /see_everyone_light.svg
       alt: See everyone
       width: 150
 
