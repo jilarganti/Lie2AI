@@ -41,10 +41,10 @@ export const shared = defineConfig({
         ['meta', { name: 'theme-color', content: '#5f67ee' }],
         ['meta', { property: 'og:type', content: 'website' }],
         ['meta', { property: 'og:locale', content: 'en' }],
-        ['meta', { property: 'og:title', content: 'A.R.V.I.S. | AI for Result-Driven Meetings' }],
-        ['meta', { property: 'og:site_name', content: 'A.R.V.I.S.' }],
+        ['meta', { property: 'og:title', content: 'Lie to AI | AI-centric Video Meetings: Speech and Emotion Analysis' }],
+        ['meta', { property: 'og:site_name', content: 'Lie to AI' }],
         // ['meta', { property: 'og:image', content: 'https://vitepress.dev/vitepress-og.jpg' }],
-        ['meta', { property: 'og:url', content: 'https://Lie2AI-doc.vercel.app/' }],
+        ['meta', { property: 'og:url', content: 'https://lie2ai.vercel.app/' }],
         // ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }]
     ],
 

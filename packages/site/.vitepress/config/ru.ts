@@ -2,7 +2,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 
 export const ru = defineConfig({
   lang: "ru-RU",
-  description: "Видеовстречи с поддержкой ИИ-помощника",
+  description:
+    "Видеовстречи в сопровождении ИИ: aнализ речи и эмоций. Оценка личностных черт и истинности утверждений участников в процессе видеоконференции.",
   // head: [['link', { rel: 'icon', href: '/LogoDark.png' }]],
   themeConfig: {
     nav: nav(),
