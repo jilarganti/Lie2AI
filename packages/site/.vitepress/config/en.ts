@@ -53,7 +53,7 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
       text: "Introduction",
       collapsed: true,
       items: [
-        { text: "Whah is Lie to AI?", link: "what-is-lie2ai" },
+        { text: "What is Lie to AI?", link: "what-is-lie2ai" },
         { text: "How it works?", link: "how-it-works" },
         { text: "Get started", link: "getting-started" },
         { text: "Demo", link: "demo" },
