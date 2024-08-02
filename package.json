@@ -1,9 +1,9 @@
 {
-  "name": "arvis-monorepo",
+  "name": "lie2ai-monorepo",
   "version": "0.0.0",
   "license": "MIT",
   "author": "SMYRNA INFORMATION TECHNOLOGY NETWORK SERVICES L.L.C",
-  "description": "Arvis project monorepo: AI-enhanced video meetings",
+  "description": "AI-centric Video Meetings: Speech and Emotion Analysis",
   "homepage": "https://github.com/jilarganti/Lie2AI",
   "bugs": "https://github.com/jilarganti/Lie2AI/issues",
   "repository": "github:jilarganti/Lie2AI",

@@ -1,6 +1,4 @@
-# A.R.V.I.S.: AI-enhanced video meetings ⚡
-
-AI-centric Video Meetings: Speech and Emotion Analysis
+# AI-centric Video Meetings: Speech and Emotion Analysis ⚡
 
 ## Contribution
 
