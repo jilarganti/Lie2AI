@@ -1,6 +1,7 @@
 import { defineConfig, type DefaultTheme } from "vitepress"
 
 export const en = defineConfig({
+  title: "Lie to AI",
   lang: "en-US",
   description:
     "AI-centric Video Meetings: Speech and Emotion Analysis. Assessment of personality traits and truthfulness of statements of participants during a video conference.",

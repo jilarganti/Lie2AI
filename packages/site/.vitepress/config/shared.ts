@@ -4,7 +4,7 @@ import markdownItFootnote from "markdown-it-footnote"
 // import { search as ruSearch } from "./ru"
 
 export const shared = defineConfig({
-  title: "Lie to AI",
+  // title: "Lie to AI",
 
   srcDir: "./docs",
 

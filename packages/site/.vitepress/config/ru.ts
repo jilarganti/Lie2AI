@@ -1,6 +1,7 @@
 import { defineConfig, type DefaultTheme } from "vitepress"
 
 export const ru = defineConfig({
+  title: "Обмани ИИ",
   lang: "ru-RU",
   description:
     "Видеовстречи в сопровождении ИИ: aнализ речи и эмоций. Оценка личностных черт и истинности утверждений участников в процессе видеоконференции.",
