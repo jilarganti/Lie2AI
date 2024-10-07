@@ -9,3 +9,7 @@ https://www.sciencedirect.com/science/article/pii/S0925231223000103
 https://www.nature.com/articles/s41598-023-47118-4
 
 https://cloud.google.com/vertex-ai?hl=en
+
+["Добавьте клей к пицце": почему ИИ все чаще ошибается, и как это повлияет на его использование в будущем](https://news.dialog.ua/300858_1725280668)
+
+[I’ve got the genAI blues](https://www.computerworld.com/article/3488589/ive-got-the-genai-blues.html)
